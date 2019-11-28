@@ -1,0 +1,18 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Este é um teste de acesso ao site!",
+              "displayText": "Teste de chamada via http"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
+
