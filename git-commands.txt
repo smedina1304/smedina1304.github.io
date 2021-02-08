@@ -1,0 +1,25 @@
+1- Primeiro passo criar o repositório no Github, utilizando um existente: smedina1304/smedina1304.github.io.git
+
+2- Clonando (baixando) o repositório:
+    git clone https://github.com/smedina1304/smedina1304.github.io.git
+
+    obs: os fontes foram baixados, criando automaticamente a pasta "smedina1304.github.io"
+
+3- Editando os fontes.
+
+4- Inicializando o Git na pasta do projeto: 
+    git init
+
+5- Adicionando todos os arquivos para controle no git:
+    git add .
+
+    Obs: Ver o link abaixo para entendimento da criação de tags/releases
+    https://medium.com/rafaeltardivo/git-criando-tags-7c34ee6786be
+
+
+6- Commit das alterações.
+    Verificar o passo 5, sempre antes de executar o commit.
+    git commit 
+
+
+
