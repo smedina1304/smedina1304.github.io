@@ -14,6 +14,9 @@
     git config --global user.name "Sérgio C. Medina"
     git config --global user.email smedina1304@gmail.com
 
+    Para ver as configurações:
+    git config --list
+
 5- Adicionando todos os arquivos para controle no git:
     git add .
 
@@ -25,5 +28,22 @@
     Verificar o passo 5, sempre antes de executar o commit para garantir que todos os arquivo sejam adicionados.
     git commit -m "Atualização inicial"
 
+7- Enviar as alterações do commit para o Git
+    git push
+
+
+8- Atualizando tag com dados de versão/Atualização
+
+    git tag -a v1.0 -m "Primeiro update"
+
+    Para ver os tags registrados:
+        git tag
+    
+    Para ver os registros gerados nas tags:
+        git show v1.0
+        Para Sair: Ctrl+C + tecla Q 
+
+9- Para versionar a Tag criada:
+    git push origin v1.0
 
 
