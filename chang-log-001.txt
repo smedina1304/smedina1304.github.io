@@ -1,0 +1,6 @@
+Este é uma exemplo de change log.
+
+Aqui devem ser inseridas as alterações realizadas e seu propósitos.
+
+Facilitando a documentação das mudanças realizadas e o entendimento das alterações.
+
