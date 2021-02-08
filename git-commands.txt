@@ -26,7 +26,7 @@
 
 6- Commit das alterações.
     Verificar o passo 5, sempre antes de executar o commit para garantir que todos os arquivo sejam adicionados.
-    git commit -m "Atualização inicial"
+    
 
 7- Enviar as alterações do commit para o Git
     git push
@@ -42,6 +42,11 @@
     Para ver os registros gerados nas tags:
         git show v1.0
         Para Sair: Ctrl+C + tecla Q 
+
+
+    ATENÇÃO para utilização de um texto longo ou uma melhor descrição, é recomendado a utilização de um arquivo para substiuir o parametro de mensagem
+    exemplo:
+        git tag -a v1.2 -F change-log-001.txt
 
 9- Para versionar a Tag criada:
     git push origin v1.0
